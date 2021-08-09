@@ -1,34 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+  <h2>Meco Chat</h2>
+  <strong>Version 0.1.0</strong>
+</div>
+
+<p align="center">
+  <!-- 🚀 View @ https://next-tuts-g6xp1s7fp-zyderus.vercel.app | hosted with <a href="https://vercel.com/">vercel</a> -->
+</p>
+
+<p align="center">
+  
+</p>
+
+<div align="center">
+  <!-- <img src="/public/assets/images/Portfolio.png" width="100%"> -->
+</div>
+
+## Description
+
+Basic chat application with server-side rendering and sockets. Your google name becomes your username in chat once you're authenticated with google id. Authentication implemented with NextAuth package.
+
+## Requirements
+
+Google account
+
+## Tech
+
+Next, Typescript, Sockets.io
 
 ## Getting Started
 
-First, run the development server:
+### 🛠 Installation & Set Up
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+1. Installation
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   ```sh
+   npm install
+   ```
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+2. Run the development server
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.tsx`.
+   ```sh
+   npm run dev
+   ```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+3. Build for Production
 
-## Learn More
+   ```sh
+   npm run build
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+## Contributors
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Rustam Ziyadov
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## License & copyright
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+&copy; Rustam Ziyadov
